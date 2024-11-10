@@ -132,5 +132,136 @@ html{
 }
 
 .card6{
- display: inline;   
+ margin-left: 50px; 
+}
+
+/* .section4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} */
+
+.box1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.box1 > h2{
+    color: white;
+    line-height: 49px;
+    font-size: 52px;
+    
+}
+
+.box1 > h3{
+    color: white;
+   font-size: 48px;
+}
+
+.logo-text2{
+    color: white;
+    font-size: 48px;
+}
+
+.box2 > div{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+   
+}
+
+.box2{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.box01, .box02, .box03, .box04, .box05, .box06, .box07{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* align-content: center; */
+    justify-content: center;
+}
+
+.box3{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.box3 > div{
+    width: 250px;
+    height: 250px;
+    /* border: 2ox solid black; */
+}
+
+.section6{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+}
+
+.section6 > div{
+    width: 350px;
+    height: 500px;
+    /* border: 2px solid white; */
+    background-color: black;
+    flex-wrap: wrap;
+}
+
+.b1 > p{
+    color: grey;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.b2{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+.b2 > h2{
+    color: white;
+}
+
+.b2 > li{
+    list-style: none;
+    color: white;
+    padding-top: 20px;
+}
+
+.section6 > .b1{
+    width: 600px;
+    height: 500px
+}
+
+.section6 > .b2{
+    width: 200px;
+}
+.section6 > .b3{
+    width: 400px;
+}
+
+.b3 > li{
+    list-style: none;
+    color: white;
+    padding: 10px;
+}
+
+.b4 > h2{
+    color: white;
 }
