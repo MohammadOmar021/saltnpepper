@@ -64,6 +64,7 @@ html{
     color: black;
     text-align: center;
     background-color: white;
+    
 }
 
 .brands{
@@ -75,3 +76,61 @@ html{
     margin-left: 50px;
 }
 
+.btn3, .btn4, .btn5{
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    padding: auto;
+    background-color: black;
+    color: white;
+}
+
+.card0{
+    display: inline-flex;
+    grid-gap: 50px;
+}
+
+.card1, .card2, .card3{
+    background-color: white;
+}
+
+.logo-text{
+    text-align: center;
+    color: white;
+    line-height: 49px;
+    font-size: 52px;
+}
+
+.section1{
+    background-color: black;
+}
+
+.section2 p{
+    color: white;
+    text-align: center;
+    font-size: 28px;
+}
+.fr1 h2{
+    color: red;
+    letter-spacing: 15px;
+    font-size: small;
+}
+
+.card4{
+    margin-left: 50px;
+}
+
+.para{
+    color: white;
+    font-size: medium;
+    line-height: 38px;
+}
+
+.card5{
+   float: right;
+   display:block;
+}
+
+.card6{
+ display: inline;   
+}
